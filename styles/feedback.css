@@ -1,0 +1,148 @@
+.feedback {
+  background-color: #EFEFEF;
+}
+
+.feedback__contact {
+  display: flex;
+  align-items: center;
+}
+
+.feedback__header {
+  padding-top: 42px;
+  margin-bottom: 31px;
+  margin-right: 40px;
+}
+.feedback__reviewer {
+  font-size: 14px;
+  line-height: 14px;
+  font-family: 'Roboto Slab', serif;
+  padding-bottom: 20px;
+}
+
+.feedback__review-block {
+  background: #FFFFFF;
+  box-shadow: 0.5px 0.5px 9px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  padding-bottom: 13px;
+  /* margin-right: -4px; */
+}
+
+.feedback__text {
+  font-size: 10px;
+  line-height: 15px;
+  padding: 18px 21px 0 21px;
+  margin-bottom: 16px;
+}
+.feedback__contact {
+  padding-left: 15px;
+}
+.feedback__container {
+  padding-bottom: 53px;
+}
+
+.feedback__image {
+  margin-right: 13px;
+  width: 80px;
+  height: 84px;
+}
+.feedback__facebook {
+  height: 17px;
+}
+
+@media screen and (min-width: 834px) {
+   .feedback__container{
+    max-width: 834px;
+    margin: 0 auto;
+    padding-left: 71px;
+    padding-right: 71px;
+  }
+  .feedback__header {
+    padding-top: 53px;
+    margin-bottom: 46px;
+  }
+  .feedback__reviewer {
+    font-size: 17px;
+    line-height: 17px;
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 18px;
+  }
+
+  .feedback__review-block {
+    background: #FFFFFF;
+    box-shadow: 0.6px 0.6px 11.6px rgba(0, 0, 0, 0.25);
+    border-radius: 17.4px;
+    padding-bottom: 17px;
+    max-width: 460px;
+  }
+
+  .feedback__text {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 23px 27px 0 26px;
+    margin-bottom: 18px;
+  }
+  .feedback__contact {
+    padding-left: 15px;
+  }
+  .feedback__container {
+    padding-bottom: 65px;
+  }
+
+  .feedback__image {
+    margin-right: 17px;
+    height: 98px;
+    width: 110px;
+  }
+  .feedback__facebook {
+    height: 18px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .feedback .feedback__container {
+    padding-left: 46px;
+    padding-right: 46px;
+    max-width: 1280px;
+  }
+  .feedback__header {
+    padding-top: 91px;
+    margin-bottom: 78px;
+    margin-right: 0px;
+  }
+  .feedback__reviewer {
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 32px;
+  }
+
+  .feedback__review-block {
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    max-width: 791px;
+    padding-bottom: 29px;
+  }
+
+  .feedback__text {
+    font-size: 20px;
+    line-height: 150%;
+    padding: 40px 46px 0 45px;
+    margin-bottom: 41px;
+  }
+  .feedback__contact {
+    padding-left: 26px;
+  }
+  .feedback__container {
+    padding-bottom: 111px;
+  }
+
+  .feedback__image {
+    margin-right: 30px;
+    width: 190px;
+    height: 169px;
+  }
+  .feedback__facebook {
+    height: 31px;
+  }
+}
