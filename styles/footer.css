@@ -1,11 +1,240 @@
+footer {
+  background-color: black;
+}
+.footer__container {
+  padding-left: 57px;
+  padding-top: 23.3px;
+  padding-bottom: 20px;
+}
 
 
+.footer__logo {
+  width: 53.6px;
+  height: 31.7px;
+  display: block;
+  margin-bottom: 14px;
+
+}
+.footer__instagram {
+  width: 15.4px;
+  height: 15.4px;
+}
+
+.footer__facebook {
+  width: 14.9px;
+  height: 14.9px;
+}
+
+.footer__vk {
+  width: 16.3px;
+  height: 16.3px;
+}
+.footer__viber {
+  width: 15.8px;
+  height: 15.8px;
+}
+
+.footer__social {
+  margin-bottom: 48px;
+}
+.footer__phone {
+  width: 12.6px;
+  height: 12.6px;
+  margin-right: 10px;
+}
+
+.footer__mail {
+  width: 12.6px;
+  height: 8.4px;
+  margin-right: 10px;
+}
+
+
+.footer__phone-mail {
+  font-style: normal;
+  color: white;
+  display: block;
+  font-size: 12px;
+  line-height: 12px;
+  margin-bottom: 10px;
+}
+
+.footer__copyright {
+  color: white;
+  font-size: 10px;
+  line-height: 10px;
+  margin-top: 49px;
+}
 
 @media screen and (min-width: 834px) {
+  footer .footer__container {
+    padding-left: 71px;
+    padding-top: 29px;
+    padding-bottom: 27px;
+    padding-right: 102px;
+  }
+  .footer__contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 85px;
+  }
+  
+  .footer__logo {
+    width: 66.6px;
+    height: 39.4px;
+    display: block;
+    margin-bottom: 17px;
+  
+  }
+   img.footer__instagram {
+    width: 19.1px;
+    height: 19.1px;
+  }
 
+  a.footer__instagram {
+    margin-right: 10px;
+  }
+
+  img.footer__facebook {
+    width: 18.5px;
+    height: 18.5px;
+  }
+  a.footer__facebook {
+    margin-right: 12px;
+  }
+  
+  img.footer__vk {
+    width: 20.3px;
+    height: 20.3px;
+  }
+  a.footer__vk {
+    margin-right: 12px;
+  }
+  img.footer__viber {
+    width: 19.7px;
+    height: 19.7px;
+  }
+  a.footer__viber {
+    margin-right: 10px;
+  }
+  .footer__social {
+    margin-bottom: 0px;
+  }
+  .footer__phone {
+    width: 15.6px;
+    height: 15.6px;
+    margin-right: 12.7px;
+  }
+  
+  .footer__mail {
+    width: 15.6px;
+    height: 10.4px;
+    margin-right: 12.7px;
+  }
+  
+  
+  .footer__phone-mail {
+    font-style: normal;
+    color: white;
+    display: block;
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 12px;
+  }
+  
+  .footer__copyright {
+    color: white;
+    font-size: 10px;
+    line-height: 10px;
+    margin-top: 49px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-
+  footer .footer__container {
+    padding-left: 42px;
+    padding-top: 50px;
+    padding-bottom: 48px;
+    padding-right: 94px;
+  }
+  .footer__contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* margin-bottom: 85px; */
+  }
+  
+  .footer__logo {
+    width: 115px;
+    height: 68px;
+    display: block;
+    margin-bottom: 30px;
+  
+  }
+  img.footer__instagram {
+    width: 33px;
+    height: 33px;
+  }
+  a.footer__instagram {
+    margin-right: 10px;
+  }
+  
+  
+  img.footer__facebook {
+    width: 32px;
+    height: 32px;
+    
+  }
+  a.footer__facebook {
+    margin-right: 12px;
+  }
+  
+  img.footer__vk {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+  }
+  a.footer__vk {
+    margin-right: 10px;
+  }
+  img.footer__viber {
+    width: 34px;
+    height: 34px;
+  }
+  a.footer__viber {
+    margin-right: 14px;
+  }
+  .footer__social {
+    margin-bottom: 0px;
+  }
+  .footer__phone {
+    width: 27px;
+    height: 27px;
+    margin-right: 22px;
+  }
+  
+  .footer__mail {
+    width: 27px;
+    height: 18px;
+    margin-right: 22px;
+  }
+  
+  
+  .footer__phone-mail {
+    font-style: normal;
+    color: white;
+    display: block;
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 21px;
+  }
+  
+  .footer__copyright {
+    color: white;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 146x;
+  }
 }
 
