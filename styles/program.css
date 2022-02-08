@@ -1,0 +1,138 @@
+.program {
+  max-width: 1271px;
+  margin: auto;
+}
+.program h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 55px;
+  margin-left: 37px;
+  margin-bottom: 83px;
+}
+.program__wrapper {
+display: flex;
+flex-wrap: wrap;
+margin-left: -37px;
+padding-bottom: 121px;
+
+}
+.program__item {
+width: 399px;
+height: 328px;
+box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+margin-left: 37px;  
+margin-top: 41px;
+position: relative;
+}
+
+.program h3{
+margin: 12px 0 30px;
+padding: 0 14px 0 20px;
+font-size: 30px;
+line-height: 1em;
+}
+.program__text {
+padding: 0 14px 0 19px;
+font-size: 25px;
+position: absolute;
+bottom: 20px;
+line-height: 1.3em;
+}
+
+@media (max-width: 833px) { /*smartphone*/
+  .program {
+    max-width: 650px;
+    margin: auto;
+  }
+  .program h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 26px;
+    /* margin-left: -60px;
+    margin-right: -20px;
+    margin-bottom: 49px; */
+  }
+  .program__wrapper {
+    
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 47px;
+  }
+  .program img {
+
+  width: 185.92px;
+  height: 74.56px;
+  }
+  .program__item {
+  width: 185.92px;
+  height: 152.84px;
+  box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+  border-radius: 13.9792px;
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  }
+
+  .program h3{
+  margin: 4px 0 19px;
+  padding: 0 7px 0 9px;
+  font-size: 14px;
+  line-height: 1em;
+  }
+  .program__text {
+  padding: 0 7px 0 9px;
+  font-size: 12px;
+  position: absolute;
+  bottom: 7px;
+  line-height: 1.3em;
+  }
+}
+
+@media (min-width: 834px) and (max-width: 1279px) { /*tablet*/
+  .program {
+    max-width: 736px;
+    margin: auto;
+
+  }
+  .program h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 32px;
+    margin-left: 21px;
+    margin-bottom: 51px;
+  }
+  .program__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -21px;
+  padding-bottom: 53px;
+  }
+  .program img {
+
+  width: 231.09px;
+  height: 92.67px;
+  }
+  .program__item {
+  width: 231.09px;
+  height: 189.97px;
+  box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+  border-radius: 17.375px;
+  margin-left: 21px;  
+  margin-top: 23px;
+  position: relative;
+  }
+
+  .program h3{
+  margin: 5px 0 24px;
+  padding: 0 8px 0 11px;
+  font-size: 17px;
+  line-height: 1em;
+  }
+  .program__text {
+  padding: 0 8px 0 11px;
+  font-size: 14px;
+  position: absolute;
+  bottom: 13px;
+  }
+}
