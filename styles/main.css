@@ -7,6 +7,7 @@
 @import "./knowledge.css";
 @import "./opening.css";
 @import "./program.css";
+@import "./header.css";
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
@@ -38,9 +39,14 @@ h2 {
   padding-right: 36px;
 }
 
+li {
+  list-style-type: none;
+}
+
 
 
 @media screen and (min-width: 834px)   {
+  
   h1 {
     font-size: 46px;
     line-height: 47px;
@@ -50,13 +56,16 @@ h2 {
     font-size: 32px;
     line-height: 32px;
   }
+
   .adaptive {
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 1280px) {
+  
   h1 {
     font-size: 80px;
     line-height: 81px;
@@ -68,9 +77,9 @@ h2 {
   }
 
   .adaptive {
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 1280px;
+    padding-left: 42px;
+    padding-right: 42px;
     margin: 0 auto;
+    width: 1280px;
   }
 }
