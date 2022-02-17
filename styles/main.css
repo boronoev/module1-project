@@ -11,6 +11,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+
+
+
+/* для мобилки */
+
 * {
   margin: 0;
   padding: 0;
@@ -34,6 +39,17 @@ h2 {
   font-size: 26px;
   line-height: 26px;
 }
+
+h5 {
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+p {
+  font-size: 12px;
+}
+
 .adaptive {
   padding-left: 36px;
   padding-right: 36px;
@@ -43,7 +59,7 @@ li {
   list-style-type: none;
 }
 
-
+/* для планшета */
 
 @media screen and (min-width: 834px)   {
   
@@ -57,12 +73,25 @@ li {
     line-height: 32px;
   }
 
+  h5 {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    
+  }
+
+  p {
+    font-size: 12px;
+  }
+
   .adaptive {
     padding-left: 70px;
     padding-right: 70px;
     margin: 0 auto;
   }
 }
+
+
+/* для десктопа */
 
 @media screen and (min-width: 1280px) {
   
@@ -74,6 +103,11 @@ li {
   h2 {
     font-size: 55px;
     line-height: 56px;
+  }
+
+  h5 {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
   }
 
   .adaptive {
