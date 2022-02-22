@@ -51,8 +51,8 @@ h2 {
     line-height: 32px;
   }
   .adaptive {
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 72px;
+    padding-right: 72px;
   }
 }
 
@@ -68,8 +68,8 @@ h2 {
   }
 
   .adaptive {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 70px;
+    padding-right: 70px;
     width: 1280px;
     margin: 0 auto;
   }

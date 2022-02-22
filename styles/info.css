@@ -1,0 +1,128 @@
+.info {
+    padding-top:45px;
+    padding-bottom:45px;
+    margin: 0 auto;
+    align-items: center;
+    padding-bottom: 61px;     
+}
+.info__container {
+    background-color: #9DC9C8;
+    padding-top: 20px;
+}
+
+.info.h2_info {
+    padding-top: 17px;
+}
+.info__h5 {
+    margin-top: 29px;
+
+    font-weight: regular;
+    font-size: 12px;
+}
+.text{
+    margin-top: 11px;
+}
+.info__text {
+    font-size: 10px;
+}
+.info__sale {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+.price {
+    font-size: 37px;
+}
+.info__text-h5 {
+    font-size: 12px;
+}
+.info__text1 {
+    font-size: 10px;
+    margin-left: 30px;
+
+}
+.info__price {
+    font-size: 37px;
+}
+.h2_info {
+    line-height: 101%;
+    padding-right: 74px;
+}
+
+
+
+@media screen and (min-width:834px) {
+    .info {
+        padding-top: 86px;
+        padding-bottom: 155px;
+        padding-left: 200px;
+    }
+    .info__price {
+        font-size: 45px;
+    }
+    .adaptive.info {
+        width: 100%;
+        
+    }
+    .adaptive {
+        padding-left: 80px;
+    }
+    .h2_info {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .info__sale {
+        margin-right: 260px;
+        
+       
+    }
+    .info__h5 {
+        font-size: 14px;
+        margin-top: 33px;
+        margin-bottom: 9px;
+    }
+    .text {
+        font-size: 11px;
+    }
+}
+@media screen and (min-width:1280px) {
+    .adaptive.info {
+        width: 1280px;
+        height: 757px;
+        padding-top: 172px;
+    }
+    .h2_info {
+        font-size: 56px;
+    }
+    p {
+        font-size: 25px;
+        
+    }
+    .info__price {
+        font-size: 80px;
+    }
+    .info__h5 {
+        font-size: 25px;
+        margin-top: 60px;
+        padding-top: 10px;
+    }
+    .text {
+        font-size: 18px;
+    }
+    .info__sale {
+        margin-right: 338px;
+        margin-top: 32px;
+        
+    }
+    .info__text1 {
+        margin-left: 60px;
+
+    }
+    .info__text-h5 {
+        font-size: 25px;
+    }
+    
+}
