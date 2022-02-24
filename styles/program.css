@@ -57,6 +57,7 @@ line-height: 1.3em;
 
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin-left: 10px;
   margin-right: 10px;
   padding-bottom: 47px;
@@ -72,8 +73,8 @@ line-height: 1.3em;
   box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
   border-radius: 13.9792px;
   margin-top: 24px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5px;
+  margin-right: 5px;
   position: relative;
   }
 

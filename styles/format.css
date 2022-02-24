@@ -3,6 +3,7 @@
 
 .format {
   padding-top:45px;
+
 }
 
 .format__item {
@@ -28,6 +29,7 @@
 
   .format {
       padding-top:93px;
+      padding-bottom: 50px;
   }
  
   .format__items {
@@ -63,6 +65,7 @@
 @media screen and (min-width: 1280px) {
   .format {
       padding-top:162px;
+      padding-bottom: 80px;
   }
  
   .format__items {
