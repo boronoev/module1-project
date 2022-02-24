@@ -1,0 +1,41 @@
+.header {
+  padding-top: 36px;
+}
+
+.header-logo {
+  width: 52px;
+  height: 30px;
+}
+
+
+
+/* для планшета */
+@media screen and (min-width: 834px)  {
+
+  .header-logo {
+      width: 64px;
+      height: 38px;
+  }
+
+  .header {
+      padding-top: 22px;
+  }
+
+  
+}
+
+
+
+/* для десктопа  */
+@media screen and (min-width: 1280px)  {
+  .header {
+      padding-top: 20px;
+  }
+
+  .header-logo {
+      width: 112px;
+      height: 66px;
+  }
+
+  
+}
