@@ -1,3 +1,7 @@
+.about {
+  margin-top: 30px;
+}
+
 .about__block1 {
   margin: 0 auto;
   align-items: center;
@@ -69,7 +73,9 @@ height: 150px;
 }
 
 @media screen and (min-width: 834px) {
-
+  .about {
+    margin-top: 40px;
+  }
   
   .about__block3:nth-child(odd){
       margin-left: 80px;
@@ -147,7 +153,9 @@ height: 150px;
 }
 
 @media screen and (min-width: 1280px) {
-
+  .about {
+    margin-top: 50px;
+  }
   .director {
       width: 232px;
       height: 203px;

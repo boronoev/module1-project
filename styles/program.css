@@ -1,6 +1,7 @@
 .program {
   max-width: 1271px;
   margin: auto;
+  margin-top: 50px;
 }
 .program h2 {
   font-family: 'Roboto Slab', serif;
@@ -43,13 +44,14 @@ line-height: 1.3em;
   .program {
     max-width: 650px;
     margin: auto;
+    margin-top: 50px;
   }
   .program h2 {
     font-family: 'Roboto Slab', serif;
     font-size: 26px;
     /* margin-left: -60px;
-    margin-right: -20px;
-    margin-bottom: 49px; */
+    margin-right: -20px; */
+    margin-bottom: 40px;
   }
   .program__wrapper {
 
@@ -94,7 +96,7 @@ line-height: 1.3em;
   .program {
     max-width: 736px;
     margin: auto;
-
+    margin-top: 50px;
   }
   .program h2 {
     font-family: 'Roboto Slab', serif;

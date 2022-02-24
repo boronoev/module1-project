@@ -38,7 +38,27 @@ h2 {
   padding-right: 36px;
 }
 
+.adaptive1 {
+  padding-left: 36px;
+  padding-right: 36px;
+}
+.adaptive2 {
+  padding-left: 36px;
+  padding-right: 36px;
+}
+.adaptive3 {
+  padding-left: 36px;
+  padding-right: 36px;
+}
+h5 {
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  
+}
 
+p {
+  font-size: 12px;
+}
 
 @media screen and (min-width: 834px)   {
   h1 {
@@ -53,6 +73,27 @@ h2 {
   .adaptive {
     padding-left: 80px;
     padding-right: 80px;
+  }
+
+  .adaptive1 {
+    padding-left: 70px;
+    padding-right: 70px;
+    margin: 0 auto;
+  }
+  .adaptive2 {
+    padding-left: 72px;
+    padding-right: 72px;
+  }
+  .adaptive3 {
+    padding-left: 72px;
+    padding-right: 72px;
+  }
+  h5 {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+  }
+  p {
+    font-size: 12px;
   }
 }
 
@@ -72,5 +113,28 @@ h2 {
     padding-right: 5px;
     width: 1280px;
     margin: 0 auto;
+  }
+
+  .adaptive1 {
+    padding-left: 42px;
+    padding-right: 42px;
+    margin: 0 auto;
+    width: 1280px;
+  }
+  .adaptive2 {
+    padding-left: 44px;
+    padding-right: 44px;
+    width: 1280px;
+    margin: 0 auto;
+  }
+  .adaptive3 {
+    padding-left: 70px;
+    padding-right: 70px;
+    width: 1280px;
+    margin: 0 auto;
+  }
+  h5 {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
   }
 }
