@@ -14,15 +14,64 @@
     <img src="img/logo_mobile_black_1.svg" class="header-logo" alt="logo">
   </header>
   <main>
-    <section class="opening adaptive">
-      <h1></h1>
+    <section class="adaptive opening">
+      <ul class="opening__list">
+        <li class="opening__item">
+          <img src="img/globe.svg" class="opening__icon">
+          онлайн-курс
+        </li>
+        <li class="opening__item">
+          <img src="img/cloc.svg" class="opening__icon">
+          18 часов
+        </li>
+        <li class="opening__item">
+          <img src="img/calendar_2.svg" class="opening__icon">
+          <time datetime="2020-04-18">
+            8 сентября
+          </time>
+        </li>
+      </ul>
+      <div class="opening__container">
+        <div class="opening__text">
+          <h1 class="opening__title">
+            Как смотреть кино
+          </h1>
+          <p class="opening__description">За 8 занятий станем активными зрителями
+            и разберёмся в кинопроцессе
+          </p>
+        </div>
+        <img src="img/man.svg" alt="парень в кепке" class="opening__man">
+      </div>
+      <div class="opening__sticker">
+        <p class="opening__citation">
+          Зритель для меня не потребитель моей продукции, не судья, а соучастник творчества, соавтор.
+        </p>
+        <p class="opening__author">
+          Андрей Тарковский
+        </p>
+      </div>
     </section>
     <section class="about adaptive">
       <h2></h2>
     </section>
     <section class="format adaptive">
-      <h2></h2>
-    </section>
+      <h2>Формат занятий</h2>
+      <section class="format__items">
+        <section class="format__item">
+          <h5>Вебинары</h5>
+          <p> Занятия проходят онлайн в режиме вебинаров с преподавателем</p>
+        </section>
+        <section class="format__item">
+          <h5> Доступ навсегда </h5>
+          <p>Если вы не успели на вебинар, всегда можете посмотреть запись в личном кабинете</p>
+        </section>
+        <section class="format__item">
+          <h5> Общение </h5>
+          <p>Вы можете задать вопрос преподавателю на занятии</p>
+        </section>
+        <!-- <img src="img/format-img.png"> -->
+      </section> <!-- закрыла format items -->
+    </section> <!-- закрыла format adaptive -->
     <section class="knowledge adaptive">
       <h2 class="knowledge__header">Что узнаем</h2>
       <div class="knowledge__container">
@@ -109,9 +158,24 @@
         </div>
       </div>
     </section>
-    <section class="info">
-      <h2></h2>
+    <section class="info adaptive">
+      <h2>Начало курса — 8 сентября</h2>
+      <section class="info__h5"> Стоимость
+        <div class="price">3900 руб.</div>
+      </section>
+      <section class="info__sale">
+        <section class=info__text>
+          <section class=info__h5>Для любого уровня</section>
+          <p>Курс подходит и тем, кто начинает «с нуля», и тем, кто хочет упорядочить имеющиеся знания.</p>
+        </section>
+        <section class=info__text>
+          <section class=info__h5 {>Проходите сейчас</section>
+          <p>Если вы не успели
+            на вебинар, всегда можете посмотреть запись в личном кабинете</p>
+        </section>
+      </section> <!-- закрыла info-sale-->
     </section>
+    <!--закрыла info adaptive -->
   </main>
   <footer>
     <div class="footer__container adaptive">

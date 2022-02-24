@@ -1,0 +1,32 @@
+
+/* мобильная версия */
+
+.info {
+  padding-top:45px;
+  padding-bottom:45px;
+  background-color: #9DC9C8;
+}
+
+info h2 {
+  padding-top: 45px;
+}
+
+.info__h5 {
+  margin-top: 34px;
+  font-weight: regular;
+  font-size: 12px;
+}
+
+.info__text {
+  font-size: 10px;
+}
+
+.info__sale {
+  margin-top: 34px;
+  display: flex;
+  flex-direction: row;
+}
+
+.price {
+  font-size: 37px;
+}

@@ -1,0 +1,94 @@
+
+/* задаем стили для мобильной версии */
+
+.format {
+  padding-top:45px;
+}
+
+.format__item {
+  padding-top: 32px;
+  width: 170px;
+}
+
+.format__item p {
+  padding-top: 8px;
+  font-size: 10px;
+}
+
+.format__item h5 {
+  color: #1E4681;
+}
+
+
+
+
+/* задаем стили для планшета */
+
+@media screen and (min-width: 834px) {
+
+  .format {
+      padding-top:93px;
+  }
+ 
+  .format__items {
+      display: flex;
+      flex-direction: row; 
+  }
+
+  .format__item { 
+      width: 172;
+      padding-top: 70px;
+  }
+
+  
+  .format__item:not(:first-child) {
+      margin-left: 65px;
+  }
+  
+  .format__item p {
+      padding-top: 4px;
+      font-size: 11px;
+  }
+  
+  .format__item h5 {
+      color: #1E4681;
+  }
+  
+}
+
+
+
+/* задаем стили для десктопа */
+
+@media screen and (min-width: 1280px) {
+  .format {
+      padding-top:162px;
+  }
+ 
+  .format__items {
+      display: flex;
+      flex-direction: row; 
+  }
+
+  .format__item { 
+      width: 270px;
+      padding-top: 126px;
+  }
+
+  
+  .format__item:not(:first-child) {
+      margin-left: 113px;
+  }
+  
+  .format__item p {
+      padding-top: 12px;
+      font-size: 18px;
+      line-height: 23px;
+  }
+  
+  .format__item h5 {
+      color: #1E4681;
+  }
+  
+}
+
