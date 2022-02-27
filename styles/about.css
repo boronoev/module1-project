@@ -74,7 +74,7 @@ height: 150px;
 
 @media screen and (min-width: 834px) {
   section.about {
-    margin-top: 40px;
+    margin-top: 116px;
   }
   
   .about__block3:nth-child(odd){
@@ -154,7 +154,7 @@ height: 150px;
 
 @media screen and (min-width: 1280px) {
   section.about {
-    margin-top: 50px;
+    margin-top: 180px;
   }
   .director {
       width: 232px;

@@ -31,12 +31,13 @@ section.knowledge{
 
 @media screen and (min-width: 834px)   {
   section.knowledge{
+    margin: 0 auto;
     padding-left: 79px;
     padding-right: 118px;
-    margin-top: 73px;
+    margin-top: 80px;
     position: relative;
-    max-width: 834px;
-    margin: 0 auto;
+    /* max-width: 834px; */
+
   }
   
   .knowledge__header {
@@ -70,12 +71,13 @@ section.knowledge{
 
 @media screen and (min-width: 1280px) {
   section.knowledge{
+    margin: 0 auto;
     padding-left: 79px;
     padding-right: 118px;
-    margin-top: 73px;
+    margin-top: 140px;
     position: relative;
     max-width: 1280px;
-    margin: 0 auto;
+
   }
   .knowledge__header {
     margin-bottom: 27px;

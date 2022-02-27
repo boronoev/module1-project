@@ -28,6 +28,7 @@ section.authors {
   font-family: 'Roboto Slab', serif;
   padding-top: 23px;
   font-size: 14px;
+  font-weight: bold;
   line-height: 14px;
   margin-bottom: 6px;
 }
@@ -71,8 +72,8 @@ section.authors {
     padding-left: 70px;
     padding-right: 59px;
     padding-top: 40px;
-    margin-top: 120px;
-    max-width: 834px;
+    margin-top: 100px;
+    /* max-width: 834px; */
     
   }
   .authors__container {
@@ -210,11 +211,15 @@ section.authors {
     left: -14px;
     background-color: white;
     z-index: 100;
-    width: 260px;
+    width: 310px;
     height: 248px;
   }
 }
-
+@media screen and (min-width: 1038px) {
+  .authors__worker {
+    display: none;
+  }
+}
 @media screen and (min-width: 1280px) {
   section.authors {
     margin: 0 auto;
@@ -222,12 +227,13 @@ section.authors {
     padding-left: 42px;
     padding-right: 19px;
     padding-top: 40px;
-    margin-top: 250px;
+    margin-top: 164px;
     max-width: 1280px;
     
   }
   .authors__container {
     display: flex;
+    margin-top: 90px;
   }
   
   .authors__block {
@@ -307,6 +313,7 @@ section.authors {
     padding-right: 15px;
   }
   .authors__worker {
+    display: block;
     position: absolute;
     top:-600px;
     left: 90px;
