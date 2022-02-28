@@ -59,6 +59,7 @@ section.knowledge{
     width: 132.34px;
     height: 78.75px;
     margin-top: -100px;
+    margin-bottom: 100px;
   }
   
   .knowledge__compositing {
@@ -80,7 +81,7 @@ section.knowledge{
 
   }
   .knowledge__header {
-    margin-bottom: 27px;
+    margin-bottom: 58px;
   }
   .knowledge__container {
     display: flex;
@@ -98,8 +99,8 @@ section.knowledge{
     position: static;
     width: 284px;
     height: 169px;
-    margin-top: 0;
-    margin-bottom: 40px;
+    margin-top: -200px;
+    margin-bottom: 120px;
   }
   
   .knowledge__compositing {
